@@ -1,0 +1,40 @@
+@media(max-width:450px) {
+    .about-image img {
+        height: 313px;
+    }
+    
+    .about-img-text {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background: url(./img/about/shape.png);
+        height: 115px;
+        width: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        text-align: center;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-img-text h2 {
+        font-size: 25px;
+    }
+    .about-img-text p {
+        font-size: 10px;
+    }
+    .chooseImg {
+        height: 292px;
+    }
+    .valueImg {
+        height: 271px;
+    }
+    .service-tab-content img {
+        height: 328px;
+    }
+
+    .testimonialIMG {
+        height: 311px;
+    }
+}
